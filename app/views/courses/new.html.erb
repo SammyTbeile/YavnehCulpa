@@ -1,0 +1,32 @@
+<%= form_for :course, url: courses_path do |f| %>
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :professor %>
+    <%= f.text_field :professor %>
+  </p>
+
+  <p>
+    <%= f.label :recommended %>
+    <%= f.text_field :recommended %>
+  </p>
+
+  <p>
+    <%= f.label :adder %>
+    <%= f.text_field :adder %>
+  </p>
+
+  <p>
+    <%= f.label :notes %>
+    <%= f.text_field :notes %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', courses_path %>

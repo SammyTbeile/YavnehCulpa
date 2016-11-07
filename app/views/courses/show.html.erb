@@ -1,0 +1,24 @@
+<p>
+    <strong>Title:</strong>
+    <%= @course.title %>
+</p>
+<ul>
+  <li>
+    <strong>Professor:</strong>
+    <%= @course.professor %>
+  </li>
+  <li>
+    <strong>Recommend?:</strong>
+    <%= @course.recommended %>
+  </li>
+  <li>
+    <strong>Added by: </strong>
+    <%= @course.adder %>
+  </li>
+  <li>
+    <strong>Notes: </strong>
+    <%= @course.notes %>
+  </li>
+</ul>
+
+<%= link_to 'Back', courses_path %>

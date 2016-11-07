@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  professor: MyString
+  recommended: false
+  adder: MyString
+  notes: MyText
+  belongs_to: 
+
+two:
+  title: MyString
+  professor: MyString
+  recommended: false
+  adder: MyString
+  notes: MyText
+  belongs_to: 

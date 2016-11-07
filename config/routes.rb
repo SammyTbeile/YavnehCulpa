@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root  'welcome#index'
+  resources :departments
+  resources :courses
+  root  'department#index'
 end

@@ -1,0 +1,14 @@
+<h1> Welcome to Yavneh Culpa!</h1>
+
+</br>
+<p> Click a department to begin or add a course!</p>
+<table>
+  <tr>
+    <th>Title</th>
+  </tr>
+  <% @departments.each do |department| %>
+    <tr>
+      <td><%= department.title %></td>
+    </tr>
+  <% end %>
+</table>
